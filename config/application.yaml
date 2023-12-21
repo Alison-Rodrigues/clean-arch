@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: Clean Arch
+  main:
+    banner-mode: OFF
+
+  datasource:
+    url: jdbc:postgresql://postgres-local:5432/users?currentSchema=platform_data
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database: postgresql
+
+    open-in-view: false
+    generate-ddl: true
+
+server:
+  port:
+    8081
