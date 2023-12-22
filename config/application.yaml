@@ -5,7 +5,7 @@ spring:
     banner-mode: OFF
 
   datasource:
-    url: jdbc:postgresql://postgres-local:5432/users?currentSchema=platform_data
+    url: jdbc:postgresql://postgres-local:5432/companies?currentSchema=platform_data
     username: postgres
     password: postgres
     driver-class-name: org.postgresql.Driver
